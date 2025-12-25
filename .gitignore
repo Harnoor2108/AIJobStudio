@@ -1,0 +1,16 @@
+# AI_AGENT/.gitignore
+
+# Ignore node_modules everywhere
+**/node_modules
+
+# Ignore all .env files in any folder
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Mac/System files
+.DS_Store
+
+# Ignore build output
+**/dist
+**/build
